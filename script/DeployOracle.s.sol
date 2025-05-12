@@ -20,4 +20,12 @@ contract DeployOracle is Script {
         console.log("PolymarketPriceOracle deployed");
         vm.stopBroadcast();
     }
+
+    function usecase() public {
+        vm.startBroadcast();
+        PolymarketPriceOracle oracle = PolymarketPriceOracle(0xC5d563A36AE78145C45a50134d48A1215220f80a);
+        uint256 price = oracle.getPrice(42724236397250207575427650023998452742043727100438655051778673245427936844254).price;
+        console.log("price", price);
+        vm.stopBroadcast();
+    }
 }
