@@ -1,4 +1,4 @@
-# Polymarket Price Oracle
+# ctf-exchange-price-oracle
 
 ```solidity
 PolymarketPriceOracle oracle = PolymarketPriceOracle(0x1aA44c933A6718a4BC44064F0067A853c34be9B0);
