@@ -2,8 +2,8 @@
 
 ```solidity
 PolymarketPriceOracle oracle = PolymarketPriceOracle(0x1aA44c933A6718a4BC44064F0067A853c34be9B0);
-uint256 price = oracle.getPrice(collateralTokenId).price;
-bool isLiquidate = price * liquidationRate > borrowAmount;
+uint256 price = oracle.getPrice(trumpYesToken.id).price;
+bool isLiquidate = trumpYesToken.volume * price <= LT;
 ```
 
 This contract serves as a secure, trustworthy, and zero-trust price oracle for Polymarket's CTF tokens (such as Yes or No).
