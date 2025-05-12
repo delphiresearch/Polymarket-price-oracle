@@ -59,6 +59,5 @@ price + complementPrice == ONE  // where ONE = 10^18
 ```
 
 # ***build & accelerate infofinance***
-Prediction markets compress dispersed societal knowledge into scalar values represented by token prices via financial mechanisms, enabling access to collective intelligence. this compression into position tokens accelerates as they gain traction within the expansive DeFi space. This implementation drives that acceleration. ***build on infofinance***
+Prediction markets compress socially distributed knowledge into scalar values represented as token prices through financial mechanisms, and this price discovery process enables access to collective intelligence. [Infofinance](https://vitalik.eth.limo/general/2024/11/09/infofinance.html) accelerates as position tokens, serving as compressed collective intelligence, gain mass within the expansive DeFi space. This implementation drives that acceleration. build on infofinance
 
-[Infofinance](https://vitalik.eth.limo/general/2024/11/09/infofinance.html)
